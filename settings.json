@@ -1,0 +1,111 @@
+{
+    "editor.codeActionsOnSave": {
+        "source.fixAll": true,
+        "source.sortImports": true,
+        "source.organizeImports": true
+    },
+    "codesnap.shutterAction": "copy",
+    "editor.cursorBlinking": "smooth",
+    "editor.cursorSmoothCaretAnimation": "on",
+    "editor.fontFamily": "'FiraCode NF', 'Fira Code', Consolas, 'Courier New', monospace, 'Monocraft'",
+    "editor.fontLigatures": true,
+    "editor.inlineSuggest.enabled": true,
+    "editor.linkedEditing": true,
+    "editor.mouseWheelZoom": true,
+    "editor.stickyScroll.enabled": true,
+    "errorLens.enabledDiagnosticLevels": [
+        "error",
+        "warning",
+        "hint"
+    ],
+    "errorLens.messageTemplate": " ■ $message",
+    "errorLens.messageBackgroundMode": "message",
+    "errorLens.removeLinebreaks": false,
+    "errorLens.margin": "10ch",
+    "gitlens.currentLine.enabled": false,
+    "gitlens.statusBar.enabled": false,
+    "gitlens.statusBar.pullRequests.enabled": false,
+    "git.decorations.enabled": false,
+    "html.autoClosingTags": true,
+    "javascript.autoClosingTags": true,
+    "javascript.suggest.autoImports": true,
+    "javascript.updateImportsOnFileMove.enabled": "always",
+    "svelte.enable-ts-plugin": true,
+    "vscord.app.name": "Visual Studio Code",
+    "vscord.status.problems.enabled": false,
+    "workbench.iconTheme": "material-icon-theme",
+    "workbench.editor.labelFormat": "short",
+    "tailwind-fold.autoFold": false,
+    "tailwind-fold.supportedLanguages": [
+        "html",
+        "svelte"
+    ],
+    "explorer.sortOrder": "filesFirst",
+    "workbench.tree.indent": 12,
+    "editor.unicodeHighlight.allowedCharacters": {
+        "❮": true,
+        "❯": true
+    },
+    "todo-tree.highlights.defaultHighlight": {
+        "foreground": "#FFA500",
+        "type": "text"
+    },
+    "errorLens.excludeBySource": [
+        "rustc(dead_code)"
+    ],
+    "window.zoomLevel": 1,
+    "workbench.colorTheme": "Atom One Dark",
+    "editor.bracketPairColorization.enabled": false,
+    "workbench.colorCustomizations": {
+        "[Monokai Pro]": {
+            "editorInlayHint.foreground": "#696969",
+            "editorInlayHint.typeBackground": "#272429"
+        }
+    },
+    "editor.semanticHighlighting.enabled": true,
+    "vim.leader": "<space>",
+    "vim.hlsearch": true,
+    "vim.useSystemClipboard": true,
+    "vim.statusBarColorControl": false,
+    "vim.statusBarColors.normal": "#97ca72",
+    "vim.statusBarColors.insert": "#5ab0f6",
+    "vim.statusBarColors.visual": "#ca72e4",
+    "vim.statusBarColors.visualblock": "#ca72e4",
+    "vim.statusBarColors.visualline": "#ca72e4",
+    "vim.statusBarColors.commandlineinprogress": "#ebc275",
+    "vim.easymotion": true,
+    "vim.handleKeys": {
+        "<C-a>": false,
+        "<C-d>": false,
+        "<C-e>": false,
+        "<C-f>": false,
+        "<C-s>": false,
+        "<C-w>": false
+    },
+    "[css]": {
+        "editor.suggest.insertMode": "replace",
+        "editor.defaultFormatter": "vscode.css-language-features"
+    },
+    "[javascript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[javascriptreact]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[typescript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[typescriptreact]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[svelte]": {
+        "editor.defaultFormatter": "svelte.svelte-vscode"
+    },
+    "[jsonc]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[python]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode",
+        "editor.formatOnType": true
+    }
+}
